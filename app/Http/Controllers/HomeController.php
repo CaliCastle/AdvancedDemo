@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\PostFormRequest;
 use Cache;
 use App\Http\Requests;
 use Illuminate\Http\Request;
@@ -26,5 +27,10 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    public function postIndex(PostFormRequest $request)
+    {
+        
     }
 }

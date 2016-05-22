@@ -11,8 +11,8 @@
     <link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="/css/app.css">
-    {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
+    {{--<link rel="stylesheet" href="/css/app.css">--}}
+     <link href="{{ elixir('css/app.css') }}" rel="stylesheet">
 
 
 </head>
@@ -68,7 +68,8 @@
     <!-- JavaScripts -->
     <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="/js/app.js"></script>
-    {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+    <script src="/js/core.js"></script>
+    {{--<script src="/js/app.js"></script>--}}
+    <script src="{{ elixir('js/app.js') }}"></script>
 </body>
 </html>
