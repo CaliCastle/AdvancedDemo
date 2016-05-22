@@ -1,0 +1,9 @@
+ @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$color: #000;
+
+body {
+  .navbar {
+    background: $color;
+  }
+}
